@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding-top: 56px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+
+.btn-group {
+    margin-top: 10px;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* Navigation */
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+/* Container */
+.container {
+    padding: 30px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Article Cards */
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    /* Center the title */
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+    background: #333;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Comment */
+.comments-list {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.comment {
+    border-left: 3px solid #333;
+    /* Move comments to the left side */
+    padding: 10px;
+    margin-left: 10px;
+    /* Add some margin for separation */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Writing Blog</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html">My Writing Blog</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="saved.html">Saved</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Welcome to My Writing Blog</h1>
+      <p>
+        Writing is my passion, and I'm thrilled to have this platform to share
+        my thoughts, stories, and ideas with you. But it's not just about me;
+        it's about us, the community of writers and readers who come together to
+        explore the world through words. So, I invite you to join in, share your
+        thoughts, and let's create a beautiful symphony of words together.
+      </p>
+
+      <div id="articles">
+        <!-- Articles will be added here -->
+      </div>
+
+      <h2>Create a New Article</h2>
+      <!-- Article Creation Form -->
+      <form id="createArticleForm">
+        <div class="form-group">
+          <label for="articleTitle">Article Title:</label>
+          <input
+            type="text"
+            id="articleTitle"
+            name="articleTitle"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="articleContent">Article Content:</label>
+          <textarea
+            id="articleContent"
+            name="articleContent"
+            class="form-control"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+      </form>
+    </div>
+
+    <!-- Link JavaScript -->
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>

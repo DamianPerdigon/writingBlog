@@ -1,0 +1,91 @@
+/* Import main styles */
+@import "style.css";
+
+/* Styles for the saved articles page container */
+.saved-articles {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for heading in saved articles page */
+.saved-articles h2 {
+    margin-bottom: 20px;
+}
+
+/* Styles for each saved article card */
+.saved-article-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove top margin for heading in article card */
+.saved-article-card h3 {
+    margin-top: 0;
+}
+
+/* Add bottom margin for paragraph in article card */
+.saved-article-card p {
+    margin-bottom: 15px;
+}
+
+/* Bold the likes text in article card */
+.saved-article-card .likes-text {
+    font-weight: bold;
+}
+
+/* Styles for comments */
+.comment {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+/* Remove margin for paragraph in comment */
+.comment p {
+    margin: 0;
+}
+
+/* Styles for comment box */
+.comment-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for textarea in comment box */
+.comment-box textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    resize: vertical;
+}
+
+/* Style for comment button */
+.comment-box button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change background color on comment button hover */
+.comment-box button:hover {
+    background: #0056b3;
+}
